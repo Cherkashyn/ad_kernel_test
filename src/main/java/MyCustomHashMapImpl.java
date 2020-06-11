@@ -1,6 +1,12 @@
 import java.util.Arrays;
 import java.util.Objects;
 
+/**
+ * Test for AdKernel.
+ * According to the test task, there are only realization of put, get and size methods.
+ * Realization of hash map resizing is omitted.
+ * Please, see task in the task.txt file.
+ */
 public class MyCustomHashMapImpl implements MyCustomHashMap {
 
   private int size;
